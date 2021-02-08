@@ -1,0 +1,38 @@
+.keypad{
+    display: grid;
+    width:min-content;
+    margin: auto;
+    grid-template-columns:  auto auto auto auto;
+    padding:20px;
+}
+.number, .clear, .submit, .operators{
+    outline: none;
+    background-color: rgb(3, 70, 133);
+    height:10vh;
+    width:10vh;
+    color:white;
+    text-shadow: black 0px 0px 6px;
+}
+.number:hover{
+    background-color: rgba(17, 0, 255, 0.719)
+}
+.clear, .submit{
+    background-color: rgb(126, 126, 126);
+}
+.clear:hover, .submit:hover{
+    background-color: rgba(172, 172, 172, 0.541);
+}
+.display{
+    height:30px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 2px black;
+    width: 35vh;
+}
+.display h1{
+    margin: 0;
+}
+.input-text-2{
+    margin: 0;
+}
