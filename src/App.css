@@ -9,7 +9,7 @@
 .calculator-closed{
     background: #2a9df4;
     padding: 10px;
-    border: solid 2px rgb(6, 1, 70);
+    border: solid 2px #060146;
 }
 .keypad{
     display: grid;
@@ -29,7 +29,7 @@
     border:solid 1px black;
 }
 .number:hover{
-    background-color: rgba(17, 0, 255, 0.719)
+    background-color: #1100ffb7
 }
 .operators:hover{
     background-color: #3f32ffe1
@@ -39,10 +39,10 @@
 }
 .clear, .submit{
     background-color: #d0efff;
-    background-color: rgba(172, 172, 172, 0.404);
+    background-color: #acacac67;
 }
 .clear:hover, .submit:hover{
-    background-color: rgba(172, 172, 172, 0.404);
+    background-color: #acacac67;
     background-color: #d0efff;
 }
 .display{
@@ -50,7 +50,7 @@
     padding: 10px;
     margin: auto;
     margin-top: 20px;
-    border: solid 2px rgba(0, 0, 0, 0.582);
+    border: solid 2px #00000094;
     width: 35vh;
     color:white;
     text-shadow: black 0px 0px 6px;
