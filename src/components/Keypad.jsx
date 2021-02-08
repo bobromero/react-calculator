@@ -21,17 +21,17 @@ const Keypad = () => {
         <div className="keypad">
             
             <Number
-                number="1"
+                number="9"
                 inputText={inputText}
                 setInputText={setInputText}
             />
             <Number
-                number="2"
+                number="8"
                 inputText={inputText}
                 setInputText={setInputText}
             />
             <Number
-                number="3"
+                number="7"
                 inputText={inputText}
                 setInputText={setInputText}
             />
@@ -42,7 +42,7 @@ const Keypad = () => {
                 setSign={setSign}
             />
             <Number
-                number="4"
+                number="6"
                 inputText={inputText}
                 setInputText={setInputText}
             />
@@ -52,7 +52,7 @@ const Keypad = () => {
                 setInputText={setInputText}
             />
             <Number
-                number="6"
+                number="4"
                 inputText={inputText}
                 setInputText={setInputText}
             />
@@ -63,17 +63,17 @@ const Keypad = () => {
                 setSign={setSign}
             />
             <Number
-                number="7"
+                number="3"
                 inputText={inputText}
                 setInputText={setInputText}
             />
             <Number
-                number="8"
+                number="2"
                 inputText={inputText}
                 setInputText={setInputText}
             />
             <Number
-                number="9"
+                number="1"
                 inputText={inputText}
                 setInputText={setInputText}
             />

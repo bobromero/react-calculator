@@ -12,6 +12,7 @@
     width:10vh;
     color:white;
     text-shadow: black 0px 0px 6px;
+    font-size: large;
 }
 .number:hover{
     background-color: rgba(17, 0, 255, 0.719)
