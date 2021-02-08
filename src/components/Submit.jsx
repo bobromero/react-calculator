@@ -7,16 +7,16 @@ const Submit = ({inputText,  setInputText, inputText2, setInputText2, sign, setS
         let b =parseInt(inputText2)
         switch(sign){
             case '-':
-                answer = a - b;
+                answer = b - a;
                 break;
             case '*':
-                answer = a * b;
+                answer = b * a;
                 break;
             case '/':
-                answer = a / b;
+                answer = b / a;
                 break;
             default:
-                answer = a + b;
+                answer = b + a;
                 break;
         }
         setInputText2('0')

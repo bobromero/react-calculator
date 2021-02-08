@@ -1,39 +1,65 @@
+.calculator{
+    background: #03254c;
+    width: min-content;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.calculator-closed{
+    background: #2a9df4;
+    padding: 10px;
+    border: solid 2px rgb(6, 1, 70);
+}
 .keypad{
     display: grid;
     width:min-content;
     margin: auto;
     grid-template-columns:  auto auto auto auto;
-    padding:20px;
+    padding:40px;
 }
 .number, .clear, .submit, .operators{
     outline: none;
-    background-color: rgb(3, 70, 133);
+    background-color: #187bcd;
     height:10vh;
     width:10vh;
     color:white;
     text-shadow: black 0px 0px 6px;
     font-size: large;
+    border:solid 1px black;
 }
 .number:hover{
     background-color: rgba(17, 0, 255, 0.719)
 }
+.operators:hover{
+    background-color: #3f32ffe1
+}
+.operators{
+    background-color: #1167b1;
+}
 .clear, .submit{
-    background-color: rgb(126, 126, 126);
+    background-color: #d0efff;
+    background-color: rgba(172, 172, 172, 0.404);
 }
 .clear:hover, .submit:hover{
-    background-color: rgba(172, 172, 172, 0.541);
+    background-color: rgba(172, 172, 172, 0.404);
+    background-color: #d0efff;
 }
 .display{
     height:30px;
     padding: 10px;
     margin: auto;
     margin-top: 20px;
-    border: solid 2px black;
+    border: solid 2px rgba(0, 0, 0, 0.582);
     width: 35vh;
+    color:white;
+    text-shadow: black 0px 0px 6px;
 }
 .display h1{
     margin: 0;
 }
 .input-text-2{
     margin: 0;
+    
+    height: min-content;
 }
